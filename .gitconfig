@@ -164,3 +164,10 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+	name = Arley McBlain
+	email = amcblain@carpages.ca
+[core]
+	editor = open -a 'Sublime Text 2'
+	excludesfile = /Users/arleym/.gitignore
