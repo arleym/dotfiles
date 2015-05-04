@@ -140,3 +140,18 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# Bad habits
+alias dropbox='cd /Users/arleym/Dropbox'
+alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias hosts='sudo nano /etc/hosts'
+
+#Dumb
+alias awesome='say high five brosef!'
+alias crap='say sucks man, sorry bro.'
+alias starwars='telnet towel.blinkenlights.nl'
+alias nyan='telnet nyancat.dakko.us'
+
+alias dev='cd /Users/arleym/dev'
+alias virtualbox='cd /Users/arleym/dev/dev-virtualbox'
