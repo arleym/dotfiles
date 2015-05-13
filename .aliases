@@ -143,8 +143,6 @@ alias reload="exec $SHELL -l"
 
 # Bad habits
 alias dropbox='cd /Users/arleym/Dropbox'
-alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
-alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias hosts='sudo nano /etc/hosts'
 
 #Dumb
@@ -154,4 +152,4 @@ alias starwars='telnet towel.blinkenlights.nl'
 alias nyan='telnet nyancat.dakko.us'
 
 alias dev='cd /Users/arleym/dev'
-alias virtualbox='cd /Users/arleym/dev/dev-virtualbox'
+alias box='cd /Users/arleym/dev/box'
